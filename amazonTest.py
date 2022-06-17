@@ -4,7 +4,7 @@ import requests
 
 
 def requester(str):
-    url = "http://127.0.0.1:5000/api/" + str
+    url = "http://amazonAPI./api/" + str
     page = requests.get(url=url)
     jsonPage = page.json()
 
